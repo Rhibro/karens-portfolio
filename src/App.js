@@ -15,23 +15,41 @@ import "./index";
 function App() {
   return (
     <BrowserRouter>
-    
-    <div className="container">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/header" exact element={<Header />} />
-        <Route path="/about" exact element={<About />} />
-        <Route path="/contact" exact element={<Contact />} />
-        <Route path="/resume" exact element={<Resume />} />
-        <Route path="/media" exact element={<Media />} />
-        <Route path="/news" exact element={<News />} />
-        <Route path="/gallery" exact element={<Gallery />} />
-        <Route path="/footer" exact element={<Footer />} />
-      </Routes>
-    </div>
+      
+      <div>
+        <Header />
+      </div>
+      
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            
+            <Route path="/about" exact element={<About />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/resume" exact element={<Resume />} />
+            <Route path="/media" exact element={<Media />} />
+            <Route path="/news" exact element={<News />} />
+            <Route path="/gallery" exact element={<Gallery />} />
+            
+          </Routes>
+        </div>
+
+      <div>
+        <Footer />
+      </div>
 
     </BrowserRouter>
   );
 }
 
 export default App;
+
+
+/*
+
+<Route path="/header" exact element={<Header />} />
+
+<Route path="/footer" exact element={<Footer />} />
+
+
+*/

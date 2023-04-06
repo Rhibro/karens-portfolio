@@ -14,6 +14,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  top: 0;
+  height: 50px;
+  background: white;
 }
 
 .navBtn {
@@ -26,7 +31,8 @@
   color: #000000;
   border: none;
   background-color: transparent;
-  margin-left: 1rem;
+  margin-right: 2rem;
+  
 }
 
 .navBtn:hover {
@@ -42,15 +48,11 @@ background-image: url(/src/images/karen.jpg);
   height: 100vh;
   width: 25vw;
 */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+
 
 .karensFace {
   position: fixed;
-  width: 45vw;
+  width: 42vw;
   height: 100vh;
   left: 0px;
   top: 0px;
@@ -58,23 +60,31 @@ background-image: url(/src/images/karen.jpg);
 
 .homeBody {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  right: 5rem;
+  top: 10px;
+  position: fixed;
 }
 
 .karenName {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 160px;
-  line-height: 211px;
+  font-size: 12vw;
+  line-height: 25vh;
   text-align: center;
   color: #000000;
   width: 45vw;
-  height: 100vh;
+  height: 80vh;
   
 }
+/*font-size: 160px;
+  line-height: 211px;
+  */
 
 /* About Styles */
 
@@ -88,13 +98,28 @@ background-image: url(/src/images/karen.jpg);
 
 /* News Styles */
 
-/* Footer Styles */
+/* Footer Styles 
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 80px;
+  bottom: 0px;
+  right: 0px;
+
+*/
 
 .footerBody {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 80px;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 3rem;
+  background: white;
 }
 
 .footerText {
