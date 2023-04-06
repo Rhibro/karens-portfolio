@@ -6,9 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
+
 
 /* Home Styles */
 
@@ -16,6 +14,16 @@ body {
   background-image: url(/src/images/karenbackground.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.karenName {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 180px;
+  line-height: 211px;
+  text-align: center;
+  color: #000000;
 }
 
 /* About Styles */

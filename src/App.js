@@ -17,15 +17,15 @@ function App() {
     
     <div className="container">
       <Routes>
-        <Route path="/header" element={<Header />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/media" element={<Media />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/footer" element={<Footer />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/header" exact element={<Header />} />
+        <Route path="/about" exact element={<About />} />
+        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/resume" exact element={<Resume />} />
+        <Route path="/media" exact element={<Media />} />
+        <Route path="/news" exact element={<News />} />
+        <Route path="/gallery" exact element={<Gallery />} />
+        <Route path="/footer" exact element={<Footer />} />
       </Routes>
     </div>
 
