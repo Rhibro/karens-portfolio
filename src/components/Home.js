@@ -1,12 +1,17 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import React from "react";
+import karen from "../images/karen.jpg"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 const Home = () => {
     return (
-        <div className="homeBody">
+        <div className="row">
+            <div>
+            <img className="karensFace" src={karen} alt="a head shot of Karen looking pensive"></img>
+            </div>
+            <div className="homeBody">
             <div>
                 <Header />
             </div>
@@ -17,6 +22,7 @@ const Home = () => {
             <div>
                 <Footer />
             </div> 
+            </div>
         </div>
     )
 
