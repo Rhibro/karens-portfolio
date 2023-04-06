@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
-import Home from "./components/Home";
+import Home from "./components/Home.js";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./index";
 
 function App() {
   return (

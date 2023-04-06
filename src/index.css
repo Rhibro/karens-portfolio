@@ -6,24 +6,57 @@
   box-sizing: border-box;
 }
 
+/* Header Styles */
 
+.navBar {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navBtn {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+}
+
+.navBtn:hover {
+  text-decoration: underline;
+}
 
 /* Home Styles */
 
 .homeBody {
-  background-image: url(/src/images/karenbackground.png);
+  background-image: url(/src/images/karen.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: left top;
+  background-size: 45vw 110vh;
+  margin-left: -100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .karenName {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 180px;
+  font-size: 160px;
   line-height: 211px;
   text-align: center;
   color: #000000;
+  width: 50vw;
+  height: 100vh;
 }
 
 /* About Styles */
@@ -37,3 +70,32 @@
 /* Contact Styles */
 
 /* News Styles */
+
+/* Footer Styles */
+
+.footerBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  font-family: 'Montserrat Alternates';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.rhiLink {
+  font-family: 'Montserrat Alternates';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+  margin-left: .5rem;
+  text-decoration: underline;
+}

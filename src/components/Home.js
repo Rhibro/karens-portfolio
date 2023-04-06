@@ -5,16 +5,32 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 const Home = () => {
-
-<div>
-    <Header />
-    <div className="homeBody">
-        <h1 className="karenName">KAREN OLRICH-WHITE</h1>
-    </div>
-    <Footer />
-</div>
-
+    return (
+        <div className="homeBody">
+            <div>
+                <Header />
+            </div>
+            <div >
+                <h1 className="karenName">KAREN OLRICH-WHITE</h1>
+            </div>
+            
+            <div>
+                <Footer />
+            </div> 
+        </div>
+    )
 
 }
 
 export default Home; 
+
+
+/*
+
+
+
+
+     
+
+
+*/
