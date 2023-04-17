@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Header Styles */
+/* Header Styles   padding: 10px 10px 0px 10px; */
 
 .navBar {
   width: 100%;
@@ -15,7 +15,6 @@
   justify-content: flex-end;
   align-items: center;
   position: fixed;
-  padding: 10px 10px 0px 10px;
   top: 0;
   height: 50px;
   background: white;
@@ -26,8 +25,8 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 50px;
-  text-align: center;
+  line-height: 60px;
+  text-align: start;
   color: #000000;
   border: none;
   background-color: transparent;
@@ -52,7 +51,7 @@ background-image: url(/src/images/karen.jpg);
 
 .karensFace {
   position: fixed;
-  width: 42vw;
+  width: 40vw;
   height: 100vh;
   left: 0px;
   top: 0px;
