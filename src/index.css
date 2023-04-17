@@ -89,6 +89,18 @@ background-image: url(/src/images/karen.jpg);
 
 /* Resume Styles */
 
+.columnR {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.resumeBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Gallery Styles */
 
 /* Media Styles */
