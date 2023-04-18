@@ -105,9 +105,45 @@ background-image: url(/src/images/karen.jpg);
 
 /* Media Styles */
 
+.columnM {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.mediaBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Contact Styles */
 
+.columnC {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.contactBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* News Styles */
+
+.columnN {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+
+.newsBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Footer Styles 
 
