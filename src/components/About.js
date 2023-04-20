@@ -5,10 +5,13 @@ const About = () => {
 
     return (
         <div className="aboutBody">
+            <div className="columnA">
             <div className="aboutImgBox">
                 <img className="aboutImg" src={aboutOne} alt="profile of Karen"></img>
                 <img className="aboutImg" src={aboutTwo} alt="Karen smiling"></img>
             </div>
+            </div>
+            <div className="columnA">
             <div className="aboutInfoBox">
                 <p className="aboutInfo">
                 Karen is a British/Icelandic actress who received a BA(Hons) in acting from The Kogan Academy of
@@ -22,13 +25,13 @@ const About = () => {
                 </p>
                 <div>
                     <ul>
-                        <li className="aboutListI">-Height: 5"5</li>
-                        <li className="aboutListI">-Hair Colour: Blonde</li>
-                        <li className="aboutListI">-Eye Colour: Blue</li>
-                        <li className="aboutListI">-Body type: Slim</li>
-                        <li className="aboutListI">-Nationalities: British, Icelandic</li>
-                        <li className="aboutListI">-Appearance: Scandinavian, White</li>
-                        <li className="aboutListI">-Playing Age: 25 to 35</li>
+                        <li className="aboutListI">Height: 5"5</li>
+                        <li className="aboutListI">Hair Colour: Blonde</li>
+                        <li className="aboutListI">Eye Colour: Blue</li>
+                        <li className="aboutListI">Body type: Slim</li>
+                        <li className="aboutListI">Nationalities: British, Icelandic</li>
+                        <li className="aboutListI">Appearance: Scandinavian, White</li>
+                        <li className="aboutListI">Playing Age: 25 to 35</li>
                     </ul>
                 </div>
                 <p className="aboutInfo">
@@ -37,6 +40,7 @@ const About = () => {
                 <p className="aboutInfo">
                 London, UK || Malmö, Sweden || Reykjavík, Iceland
                 </p>
+            </div>
             </div>
         </div>
     )

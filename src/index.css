@@ -55,6 +55,7 @@ background-image: url(/src/images/karen.jpg);
   height: 100vh;
   left: 0px;
   top: 0px;
+  border: 1px solid black;
 }
 
 .homeBody {
@@ -86,6 +87,55 @@ background-image: url(/src/images/karen.jpg);
   */
 
 /* About Styles */
+
+.columnA {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  margin-top: 1px;
+}
+
+.aboutBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aboutImg {
+  width: 42vw;
+  height: 70vh;
+  border: 1px solid black;
+}
+
+.aboutImgBox {
+  left: -1px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutInfoBox {
+  margin-top: 80px;
+  
+}
+
+.aboutInfo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.aboutListI {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000;
+}
 
 /* Resume Styles */
 

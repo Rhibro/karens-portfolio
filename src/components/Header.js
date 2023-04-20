@@ -5,7 +5,7 @@ const Header = () => {
     return (
 
         <div className="navBar">
-        <Link to="/Home">
+        <Link to="/">
             <button className="navBtn">
                 Home
             </button>
