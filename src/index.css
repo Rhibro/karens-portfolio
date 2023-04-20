@@ -141,14 +141,69 @@ background-image: url(/src/images/karen.jpg);
 
 .columnR {
   float: left;
-  width: 40%;
-  padding: 10px;
+  width: 41.5%;
+  padding: 0px;
+  margin-top: 1px;
+ 
 }
 
 .resumeBody:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.imgInfoBox {
+  position: relative;
+  margin-left: -80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ADBAC9;
+  border: 1px solid black;
+  min-height: 100%;
+ 
+}
+
+.resumeimg {
+  width: 42vw;
+  height: 70vh;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.resumeInfoBox {
+  margin-top: 80px;
+  min-height: 100%;
+  margin-left: 50px;
+  width: 100%;
+} 
+
+.resumeTitles {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  color: #000000;
+  margin-left: 2rem;
+}
+
+.listIr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.resumeItems {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 2rem;
 }
 
 /* Gallery Styles */

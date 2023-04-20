@@ -5,6 +5,7 @@ const Resume = () => {
 return (
     <div className="resumeBody">
         <div className="columnR">
+            <div className="imgInfoBox">
             <img className="resumeimg" src={resumeImg} alt="Karen in a black leather jacket looking serious"></img>
             <h2 className="resumeTiltles">
                 Special Skills
@@ -40,8 +41,10 @@ return (
                 <p className="resumeItems">
                     The Kogan Academy of Dramatic Arts | BA (Hons Acting) | 2012-2015
                 </p>
+                </div>
         </div>
         <div className="columnR">
+        <div className="resumeInfoBox">  
         <h2 className="resumeTiltles">
             Film/TV
         </h2>
@@ -98,6 +101,7 @@ return (
                 Localove | Localove app online | 2017 | Lead Actress
             </p>
         </div>
+        </div> 
     </div>
 )
 
