@@ -16,13 +16,13 @@ function Form() {
     return (
       <div className="myForm">
         <form onSubmit={onSubmit}>
-          <div>
+          <div className="emailSection">
             <label htmlFor="email">
               email:
             </label>
             <input className="inPut" type="email" id="email" required />
           </div>
-          <div>
+          <div className="messageSection">
             <label htmlFor="message">
               message:
             </label>

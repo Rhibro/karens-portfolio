@@ -15,7 +15,7 @@ return (
                 <p className="mediaInfo">
                     Check out more of Karen's work
                 </p>
-                <img src={vimeo} alt="vimeo icon"></img>
+                <img src={vimeo} alt="vimeo icon" className="mediaIcon"></img>
             </div>
         </div>
     </div>

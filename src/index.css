@@ -218,6 +218,37 @@ background-image: url(/src/images/karen.jpg);
   padding: 10px;
 }
 
+.mediaimg {
+  height: 100vh;
+  width: 40vw;
+  margin-left: -90px;
+  margin-top: -9px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.mediaInfoBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+
+.mediaInfo {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.mediaIcon {
+  width: 20vw; 
+  height: 20vh;
+}
+
 .mediaBody:after {
   content: "";
   display: table;
@@ -236,6 +267,83 @@ background-image: url(/src/images/karen.jpg);
   content: "";
   display: table;
   clear: both;
+}
+
+.contactimg {
+  height: 110vh;
+  width: 40vw;
+  margin-left: -90px;
+  margin-top: -9px;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* Form Styles */
+
+.myForm {
+  height: 90vh;
+  width: 70vw;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.emailSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.messageSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+  margin: 1rem;
+}
+
+.inPut {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  height: 10vh;
+  width: 40vw;
+}
+
+.textArea {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  height: 40vh;
+  width: 40vw;
+}
+
+.formBtn {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  margin: 2rem;
+  height: 10vh;
+  width: 10vw;
+}
+
+.formBtn:hover {
+  background-color: rgb(172, 168, 168);
 }
 
 /* News Styles */
