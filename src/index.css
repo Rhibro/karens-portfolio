@@ -160,7 +160,8 @@ background-image: url(/src/images/karen.jpg);
   flex-direction: column;
   background-color: #ADBAC9;
   border: 1px solid black;
-  min-height: 100%;
+  width: 42vw;
+  height: 200vh;
  
 }
 
@@ -183,9 +184,9 @@ background-image: url(/src/images/karen.jpg);
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 45px;
+  line-height: 50px;
   color: #000000;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .listIr {
@@ -194,6 +195,7 @@ background-image: url(/src/images/karen.jpg);
   font-weight: 500;
   font-size: 20px;
   line-height: 40px;
+  color: #000000;
 }
 
 .resumeItems {

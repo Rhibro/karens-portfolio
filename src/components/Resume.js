@@ -7,7 +7,7 @@ return (
         <div className="columnR">
             <div className="imgInfoBox">
             <img className="resumeimg" src={resumeImg} alt="Karen in a black leather jacket looking serious"></img>
-            <h2 className="resumeTiltles">
+            <h2 className="resumeTitles">
                 Special Skills
             </h2>
             <ul>
@@ -32,7 +32,7 @@ return (
                     Drivers Licence
                 </li>
             </ul>
-            <h2 className="resumeTiltles">
+            <h2 className="resumeTitles">
                 Training 
             </h2>
                 <p className="resumeItems">
@@ -45,7 +45,7 @@ return (
         </div>
         <div className="columnR">
         <div className="resumeInfoBox">  
-        <h2 className="resumeTiltles">
+        <h2 className="resumeTitles">
             Film/TV
         </h2>
             <p className="resumeItems">
@@ -66,7 +66,7 @@ return (
             <p className="resumeItems">
                 One Man Film | Consequence (short film) | 2016 | Elsa
             </p>
-        <h2 className="resumeTiltles">
+        <h2 className="resumeTitles">
             Stage
         </h2>
             <p className="resumeItems">
@@ -94,7 +94,7 @@ return (
             <p className="resumeItems">
                 Sofa Productions | Extremities | 2016 | Marjorie
             </p>
-        <h2 className="resumeTiltles">
+        <h2 className="resumeTitles">
             Commercials
         </h2>
             <p className="resumeItems">
