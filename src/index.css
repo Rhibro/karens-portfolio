@@ -346,6 +346,45 @@ label {
   background-color: rgb(172, 168, 168);
 }
 
+.socialGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialBtn {
+  color: #000000;
+}
+
+.socialBtn:hover {
+  color: rgb(172, 168, 168);
+}
+
+.socialOne {
+  width: 70px;
+  height: 80.5px;
+}
+
+.socailTwo {
+  width: 70px;
+  height: 80px;
+}
+
+.socailThree {
+  width: 100px;
+  height: 88.89px;
+}
+
+.socialFour {
+  width: 80px;
+  height: 91.43px;
+}
+
+.socailFive {
+  width: 70px;
+  height: 80px;
+}
+
 /* News Styles */
 
 .columnN {

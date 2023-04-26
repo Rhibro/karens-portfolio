@@ -1,4 +1,9 @@
 import React from "react";
+import linkedin from "../images/linked.png";
+import insta from "../images/instagram.svg";
+import youtube from "../images/youtube.png";
+import vimo from "../images/vimeo.svg";
+import facebook from "../images/square-facebook.svg";
 
 function Form() {
 
@@ -28,10 +33,22 @@ function Form() {
             </label>
             <textarea className="textArea" id="message" required />
           </div>
+          <div className="socialGroup">
           <button className="formBtn" type="submit">
             {formStatus}
           </button>
           
+            <a className="socialBtn" href="https://www.linkedin.com/in/karen-olrich-white-b288681bb/" target="_blank" rel="noopener noreferrer">
+              <img className="socialOne" src={linkedin} alt="linkedin icon" ></img></a>
+            <a className="socialBtn" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <img className="socialTwo" src={insta} alt="instagram icon" ></img></a>
+            <a className="socialBtn" href="https://www.youtube.com/@karenolrich-white9307/featured" target="_blank" rel="noopener noreferrer">
+              <img className="socialThree" src={youtube} alt="youtube icon" ></img></a>
+            <a className="socialBtn" href="https://vimeo.com/user54179902" target="_blank" rel="noopener noreferrer">
+              <img className="socialFour" src={vimo} alt="vimo icon" ></img></a>
+            <a className="socialBtn" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+              <img className="socialFive" src={facebook} alt="facebook icon" ></img></a>
+          </div>
         </form>
       </div>
     )
@@ -41,11 +58,6 @@ function Form() {
 
   /* 
   
-  <div className="socialGroup">
-            <a className="socialBtnOne" href="https://github.com/Rhibro" target="_blank" rel="noopener noreferrer">
-              <img className="social" src={github} alt="github icon" ></img></a> 
-            <a className="socialBtnTwo" href="https://www.linkedin.com/in/rhiannon-br%C3%B6nnimann-a1a888a0/" target="_blank" rel="noopener noreferrer">
-            <img className="social" src={linkedin} alt="linkedin icon" ></img></a>
-          </div>
+ 
   
   */
