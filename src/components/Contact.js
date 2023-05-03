@@ -9,7 +9,9 @@ return (
             <img src={contactImg} alt="Karen sitting on a chair with boxing gloves on" className="contactimg"></img>
         </div>
         <div className="columnC">
-            <Form />
+            <div className="formBox">
+                <Form />
+            </div>
         </div>
     </div>
 )

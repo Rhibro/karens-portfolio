@@ -3,7 +3,8 @@ import linkedin from "../images/linked.png";
 import insta from "../images/instagram.svg";
 import youtube from "../images/youtube.png";
 import vimo from "../images/vimeo.svg";
-import facebook from "../images/square-facebook.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 function Form() {
 
@@ -46,8 +47,7 @@ function Form() {
               <img className="socialThree" src={youtube} alt="youtube icon" ></img></a>
             <a className="socialBtn" href="https://vimeo.com/user54179902" target="_blank" rel="noopener noreferrer">
               <img className="socialFour" src={vimo} alt="vimo icon" ></img></a>
-            <a className="socialBtn" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-              <img className="socialFive" src={facebook} alt="facebook icon" ></img></a>
+              <FontAwesomeIcon icon="fa-brands fa-instagram" style={{color: "#000000",}} />
           </div>
         </form>
       </div>

@@ -38,15 +38,7 @@
   text-decoration: underline;
 }
 
-/* Home Styles 
-background-image: url(/src/images/karen.jpg);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 45vw 110vh;
-  margin-left: -90px;
-  height: 100vh;
-  width: 25vw;
-*/
+/* Home Styles */
 
 
 .karensFace {
@@ -82,9 +74,6 @@ background-image: url(/src/images/karen.jpg);
   height: 80vh;
   
 }
-/*font-size: 160px;
-  line-height: 211px;
-  */
 
 /* About Styles */
 
@@ -334,6 +323,10 @@ background-image: url(/src/images/karen.jpg);
   position: absolute;
 }
 
+.formBox {
+  margin-left: 3rem;
+}
+
 /* Form Styles */
 
 .myForm {
@@ -453,6 +446,40 @@ label {
   content: "";
   display: table;
   clear: both;
+}
+
+.newsimg {
+  height: 110vh;
+  width: 40vw;
+  margin-left: -90px;
+  margin-top: -9px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  position: sticky;
+}
+
+.newsInfoBox {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  width: 100%;
+}
+
+.newsHead {
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.newsInfo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  color: #000000;
 }
 
 /* Footer Styles 
