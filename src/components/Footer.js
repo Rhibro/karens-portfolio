@@ -10,10 +10,10 @@ const Footer = () => {
             
             <span>
                 <Link to={{pathname:
-                "https://www.rhiannonbronnimann.com/"}}
-                target="_blank" className="rhiLink">
-                 Rhiannon Brönnimann
-            </Link>
+                    "https://www.rhiannonbronnimann.com/"}}
+                    target="_blank" className="rhiLink">
+                    Rhiannon Brönnimann
+                </Link>
             </span>
             </p>
         </div>
