@@ -22,7 +22,7 @@
   width: 100%;
   align-self: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: fixed;
   top: 0;
@@ -40,8 +40,6 @@
   color: #000000;
   border: none;
   background-color: transparent;
-  margin-right: 6rem;
-  
 }
 
 .navBtn:hover {
@@ -54,13 +52,9 @@ left: 0px;
    position: fixed;
 */
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .karensFace {
+  object-fit: contain;
   max-width: 700px;
   max-height: 800px;
   width: auto;
@@ -73,14 +67,17 @@ left: 0px;
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-  
   right: 5rem;
   top: 10px;
   position: fixed;
 }
 
 /* width: 45vw;
-  height: 80vh;  */
+  height: 80vh;  
+  
+    margin-top: 2.5rem;
+  width: 50vw;
+  height: 90vh;*/
 
 .karenName {
   font-family: 'Roboto';
@@ -90,8 +87,10 @@ left: 0px;
   line-height: 25vh;
   text-align: center;
   color: #000000;
-  margin-top: 5rem;
-  
+  margin-top: 2.5rem;
+  width: 50vw;
+  height: 90vh;
+
 }
 
 /* About Styles */
