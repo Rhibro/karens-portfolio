@@ -27,11 +27,11 @@ const Home = () => {
                     }, [screenSize])
 
     return (
-        <div className="row">
+        <div className="homeBody">
             <div>
             <img className="karensFace" src={karen} alt="a head shot of Karen looking pensive"></img>
             </div>
-            <div className="homeBody">
+            <div>
             <div >
                 <h1 className="karenName">KAREN OLRICH-WHITE</h1>
             </div>
