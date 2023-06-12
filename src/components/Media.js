@@ -10,7 +10,7 @@ return (
             <img src={mediaImg} alt="Karen smiling and sitting on a chair" className="mediaimg"></img>
         </div>
         <div className="columnM">
-            <YoutubeEmbed embedId=""/>
+            <YoutubeEmbed embedId="" className="youtube"/>
             <div className="mediaInfoBox">
                 <p className="mediaInfo">
                     Check out more of Karen's work
