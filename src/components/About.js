@@ -14,7 +14,7 @@ const About = () => {
             <div className="columnA">
             <div className="aboutInfoBox">
                 <p className="aboutInfo">
-                <span className="karenName">Karen</span> is a British/Icelandic actress who received a BA(Hons) in acting from The Kogan Academy of
+                <span className="karenname">Karen</span> is a British/Icelandic actress who received a BA(Hons) in acting from The Kogan Academy of
                  Dramatic Arts in 2016. Whilst training Karen played roles such as Dottie (‘Killer Joe’) and Kim 
                  (‘Caravan’). After graduating she first appeared in ‘Extremities’ during The Brighton and Camden 
                  Fringe Festivals playing the lead, Marjorie.
